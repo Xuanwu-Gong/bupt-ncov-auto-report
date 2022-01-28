@@ -1,5 +1,5 @@
 import os
-
+print(os.environ['USERS'], os.environ['SERVER_KEY'])
 USERS = eval(os.environ['USERS'])
 SERVER_KEY = os.environ['SERVER_KEY']
 print(USERS, SERVER_KEY)
