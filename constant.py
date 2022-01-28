@@ -1,9 +1,6 @@
 import os
-
 USERS = eval(os.environ['USERS'])
 SERVER_KEY = os.environ['SERVER_KEY']
-
-
 LOGIN_API = 'https://app.bupt.edu.cn/uc/wap/login/check'
 GET_API = 'https://app.bupt.edu.cn/ncov/wap/default/index'
 REPORT_API = 'https://app.bupt.edu.cn/ncov/wap/default/save'
